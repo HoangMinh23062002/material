@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  letter-spacing: 0.25px;
+  text-decoration: none;
+  list-style-type: none;
+
+}
+.infor-footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 20px;
+}
+.footer-container {
+  color: white;
+  background-color: #1a1a1a;
+  padding: 10px 0 10px 0;
+}
+.footer-aboutus-content {
+  color: #999;
+}
+.footer-contact-title-sub {
+  color: #fff;
+  margin-right: 5px;
+}
+.footer-contact-title {
+  padding-bottom: 10px;
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 15px;
+  content: "";
+
+  border-bottom: 2px solid #fdc236;
+  margin: 10px 0;
+}
+.footer-infor-detail {
+  color: #999;
+}
+.footer-infor-detail-bar {
+  color: #999;
+  padding: 5px 0;
+  border-bottom: 1px dashed rgba(102, 102, 102, 0.3);
+}
+ .footer-infor-detail-bar:hover{
+color: #fdc236;
+}
+.horital-bar {
+  position: relative;
+  height: 4px;
+  width: 100%;
+  background-color: #fdc236;
+  background-image: url(//bizweb.dktcdn.net/100/321/299/themes/670850/assets/footer-strip.png?1619514046977);
+  background-repeat: repeat-x;
+  background-position: center top;
+}
+.copy-right{
+color: #787878;
+  text-align: center;
+  margin: 20px 0 20px 0;
+}
